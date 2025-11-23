@@ -1,0 +1,46 @@
+.app-content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.title-card{
+    background-color: white;
+    border:5px, solid rgb(111, 111, 221);
+    border-radius: 10px;
+    
+
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title{
+    font-size:35px;
+    text-shadow:  5px 1px 5px rgb(159, 159, 159);
+}
+
+.ex-para{
+    margin-top: 2px;
+    font-size: larger;
+    font-weight:bold;
+}
+
+.ex-para:hover{
+    font-size: 20px;
+    transition: 0.6s ease-in-out;
+}
+
+
+
+body{
+    background-color: rgb(205, 227, 247);
+}
+
+.fitness-display{
+    font-family: Arial, Helvetica, sans-serif;
+}
