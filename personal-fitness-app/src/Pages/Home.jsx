@@ -1,51 +1,36 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
 
 function Home() {
   return (
     <>
-      <NavBar />
-
       <div className="home-content">
         <h1 className="home-title">Welcome to the Personal Fitness App</h1>
         <p>To get started, please go to the Fitness Display page.</p>
       </div>
 
-      <div className="about-section">
-        <h2>About Us</h2>
-        <p>
-          The core dedication of our fitness application is to create a
-          comprehensive and empowering ecosystem where users can not only set
-          ambitious fitness objectives but are also provided with the precise
-          digital tools necessary to realize them. This begins with the
-          user-friendly interface, which is not merely an aesthetic choice but a
-          critical feature engineered through extensive testing and feedback to
-          guarantee a smooth, intuitive navigation experience, effectively
-          eliminating the technological hurdles that often impede consistency;
-          the clean design and logical flow ensure that whether a user is a
-          beginner or a seasoned athlete, they can instantly understand where to
-          go to initiate a workout, review their historical data, or adjust
-          their nutritional inputs. Furthermore, the app excels in the critical
-          area of tracking workouts by acting as a highly flexible and
-          intelligent personal training journal, supporting a vast library of
-          exercises for weightlifting, cardio, bodyweight training, and
-          specialized activities, allowing for rapid logging, the creation and
-          storage of highly detailed, customized multi-week routines, and
-          potentially even providing in-session prompts and rest timers to
-          optimize performance and safety. Finally, the truly transformative
-          element is the robust mechanism for tracking progress, which moves far
-          beyond simple numerical logging; the application processes the
-          collected data—including volume lifted, distance covered, consistency,
-          and body metrics—and translates it into rich, visually dynamic
-          reports, such as heatmaps demonstrating muscle group recovery,
-          interactive line graphs illustrating strength gains over time, and
-          personalized milestone achievements, which serve as crucial,
-          non-verbal motivators, offering tangible, incontrovertible evidence of
-          the user's hard work and commitment, thereby building long-term
-          adherence and a sense of genuine accomplishment within their personal
-          fitness journey.
-        </p>
-      </div>
+      <div className="howtouse-section">
+  <h1>How to Use</h1>
+  <ol>
+    <li>
+      Start by navigating to the Fitness Display page. You can find it in the navigation bar at the top of the screen.
+    </li>
+    <li>
+      Once on the Fitness Display page, you can track your fitness goals and activities. You can add new activities, view your progress, and set goals for yourself.
+    </li>
+    <li>
+      To add a new activity, click on the "Add Activity" button. This will open a form where you can enter the details of your activity, such as the type of activity, duration, and distance.
+    </li>
+    <li>
+      After adding an activity, you can view your progress by clicking on the "View Progress" button. This will show you a chart of your activities and your progress towards your goals.
+    </li>
+    <li>
+      To set goals for yourself, click on the "Set Goals" button. This will open a form where you can set goals for activities, such as distance, duration, or calories burned.
+    </li>
+    <li>
+      Finally, don't forget to save your changes and log out when you're done using the app.
+    </li>
+  </ol>
+</div>
     </>
   )
 }
