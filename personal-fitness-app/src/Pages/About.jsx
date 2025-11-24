@@ -6,8 +6,8 @@ function About() {
     <>
       <div className="about-page-content">
         <div className="about-section">
-          <h2>About Us</h2>
-          <p>
+          <h2 className="about-title">About Us</h2>
+          <p className="about-text">
             The core dedication of our fitness application is to create a
             comprehensive and empowering ecosystem where users can not only set
             ambitious fitness objectives but are also provided with the precise
